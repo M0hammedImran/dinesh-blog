@@ -10,6 +10,26 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import type { SVGProps } from "react";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Dinesh's Portfolio",
+	description:
+		"Dinesh M is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+	openGraph: {
+		type: "website",
+		url: "https://dinesh-porfolio.vercel.app/",
+		title: "Dinesh's Portfolio",
+		description: "Dinesh's Portfolio Description",
+		siteName: "Dinesh's Portfolio",
+		images: [
+			{
+				url: "https://dinesh-porfolio.vercel.app/_next/image?url=%2Fdinesh.jpg&w=640&q=75",
+			},
+		],
+	},
+	keywords: ["interior designer", "portfolio", "dinesh m"],
+};
 
 export default function Component() {
 	return (
