@@ -41,7 +41,7 @@ export default function Component() {
 				</nav>
 			</header>
 			<main className="flex-1">
-				<section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+				<section className="w-full flex justify-center py-12 md:py-24 lg:py-32 xl:py-48">
 					<div className="container px-4 md:px-6">
 						<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
 							<div className="flex flex-col justify-center space-y-4">
@@ -66,7 +66,7 @@ export default function Component() {
 					</div>
 				</section>
 				<section
-					className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
+					className="w-full flex justify-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
 					id="projects"
 				>
 					<div className="container px-4 md:px-6">
@@ -133,7 +133,10 @@ export default function Component() {
 						</div>
 					</div>
 				</section>
-				<section className="w-full py-12 md:py-24 lg:py-32" id="about">
+				<section
+					className="w-full flex justify-center flex justify-center py-12 md:py-24 lg:py-32"
+					id="about"
+				>
 					<div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
 						<div className="space-y-2">
 							<h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
@@ -158,7 +161,7 @@ export default function Component() {
 					</div>
 				</section>
 				<section
-					className="w-full py-12 md:py-24 lg:py-32 border-t"
+					className="w-full flex justify-center py-12 md:py-24 lg:py-32 border-t"
 					id="contact"
 				>
 					<div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
