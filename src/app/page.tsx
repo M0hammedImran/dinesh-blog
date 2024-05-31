@@ -51,7 +51,7 @@ export default function Component() {
 									</h1>
 									<p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
 										Passionate interior designer with a focus on creating
-										beautiful&apos; functional spaces that inspire.
+										beautiful, functional spaces that inspire.
 									</p>
 								</div>
 							</div>
@@ -76,7 +76,8 @@ export default function Component() {
 									Featured Projects
 								</h2>
 								<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-									Explore a selection of Jane's recent interior design projects.
+									Explore a selection of Dinesh&apos;s recent interior design
+									projects.
 								</p>
 							</div>
 						</div>
@@ -92,8 +93,8 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Modern Loft</CardTitle>
 									<CardDescription>
-										Transformed a dated loft into a bright&apos; open-concept
-										living space.
+										Transformed a dated loft into a bright, open-concept living
+										space.
 									</CardDescription>
 								</CardHeader>
 							</Card>
@@ -108,7 +109,7 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Cozy Cabin Retreat</CardTitle>
 									<CardDescription>
-										Designed a warm&apos; rustic cabin with a focus on natural
+										Designed a warm, rustic cabin with a focus on natural
 										materials.
 									</CardDescription>
 								</CardHeader>
@@ -124,8 +125,8 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Minimalist Apartment</CardTitle>
 									<CardDescription>
-										Created a serene&apos; pared-down living space with clean
-										lines and neutral tones.
+										Created a serene, pared-down living space with clean lines
+										and neutral tones.
 									</CardDescription>
 								</CardHeader>
 							</Card>
@@ -141,11 +142,10 @@ export default function Component() {
 							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
 								Dinesh M is a passionate interior designer with over a decade of
 								experience. He believes in creating spaces that are not only
-								beautiful&apos; but also functional and tailored to the unique
-								needs of his clients. His design philosophy focuses on
-								incorporating natural elements&apos; minimalist aesthetics&apos;
-								and sustainable materials to craft timeless&apos; inspiring
-								interiors.
+								beautiful, but also functional and tailored to the unique needs
+								of his clients. His design philosophy focuses on incorporating
+								natural elements, minimalist aesthetics, and sustainable
+								materials to craft timeless, inspiring interiors.
 							</p>
 						</div>
 						<Image
