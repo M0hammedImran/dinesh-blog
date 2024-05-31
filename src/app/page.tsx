@@ -51,7 +51,7 @@ export default function Component() {
 									</h1>
 									<p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
 										Passionate interior designer with a focus on creating
-										beautiful, functional spaces that inspire.
+										beautiful&apos; functional spaces that inspire.
 									</p>
 								</div>
 							</div>
@@ -82,7 +82,7 @@ export default function Component() {
 						</div>
 						<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
 							<Card>
-								<img
+								<Image
 									alt="Project 1"
 									className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
 									height="310"
@@ -92,13 +92,13 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Modern Loft</CardTitle>
 									<CardDescription>
-										Transformed a dated loft into a bright, open-concept living
-										space.
+										Transformed a dated loft into a bright&apos; open-concept
+										living space.
 									</CardDescription>
 								</CardHeader>
 							</Card>
 							<Card>
-								<img
+								<Image
 									alt="Project 2"
 									className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
 									height="310"
@@ -108,13 +108,13 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Cozy Cabin Retreat</CardTitle>
 									<CardDescription>
-										Designed a warm, rustic cabin with a focus on natural
+										Designed a warm&apos; rustic cabin with a focus on natural
 										materials.
 									</CardDescription>
 								</CardHeader>
 							</Card>
 							<Card>
-								<img
+								<Image
 									alt="Project 3"
 									className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
 									height="310"
@@ -124,8 +124,8 @@ export default function Component() {
 								<CardHeader>
 									<CardTitle>Minimalist Apartment</CardTitle>
 									<CardDescription>
-										Created a serene, pared-down living space with clean lines
-										and neutral tones.
+										Created a serene&apos; pared-down living space with clean
+										lines and neutral tones.
 									</CardDescription>
 								</CardHeader>
 							</Card>
@@ -141,13 +141,14 @@ export default function Component() {
 							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
 								Dinesh M is a passionate interior designer with over a decade of
 								experience. He believes in creating spaces that are not only
-								beautiful, but also functional and tailored to the unique needs
-								of his clients. His design philosophy focuses on incorporating
-								natural elements, minimalist aesthetics, and sustainable
-								materials to craft timeless, inspiring interiors.
+								beautiful&apos; but also functional and tailored to the unique
+								needs of his clients. His design philosophy focuses on
+								incorporating natural elements&apos; minimalist aesthetics&apos;
+								and sustainable materials to craft timeless&apos; inspiring
+								interiors.
 							</p>
 						</div>
-						<img
+						<Image
 							alt="Dinesh M"
 							className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full"
 							height="550"
