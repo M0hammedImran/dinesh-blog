@@ -56,9 +56,12 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+		<html
+			lang="en"
+			className={[inter.variable, calSans.variable, "dark"].join(" ")}
+		>
 			<body className={inter.className}>
-				<main className="flex flex-col min-h-[100dvh]">{children}</main>
+				<main className="flex flex-col min-h-[100svh]">{children}</main>
 			</body>
 		</html>
 	);
