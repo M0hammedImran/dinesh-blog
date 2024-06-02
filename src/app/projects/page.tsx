@@ -13,7 +13,7 @@ export default function Page() {
 		<div>
 			<Navbar />
 			<section
-				className="w-full flex justify-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
+				className="w-full min-h-[calc(100svh-121px)] flex justify-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
 				id="projects"
 			>
 				<div className="container px-4 md:px-6">

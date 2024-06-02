@@ -9,16 +9,16 @@ export default function Page() {
 		<>
 			<Navbar />
 			<section
-				className="w-full flex justify-center py-12 md:py-24 lg:py-32 border-t"
+				className="w-full min-h-[calc(100svh-121px)] flex justify-center py-12 md:py-24 lg:py-32 border-t"
 				id="contact"
 			>
-				<div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+				<div className="container flex items-center justify-center flex-col gap-4 px-4 text-center md:px-6">
 					<div className="space-y-3">
 						<h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
 							Get in Touch
 						</h2>
 						<p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-							Have a project in mind? Fill out the form below and Jane will be
+							Have a project in mind? Fill out the form below and Dinesh will be
 							in touch.
 						</p>
 					</div>
