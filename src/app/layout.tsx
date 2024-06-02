@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
 	title: "Dinesh's Portfolio",
 	description:
-		"Dinesh M is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+		"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
 	openGraph: {
 		type: "website",
 		url: "https://mdinesh.in/",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 			},
 		],
 	},
-	keywords: ["interior designer", "portfolio", "dinesh m"],
+	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
 	robots: {
 		index: true,
 		follow: true,

@@ -13,7 +13,7 @@ export default function Component() {
 							<div className="flex flex-col justify-center space-y-4">
 								<div className="space-y-2">
 									<h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-										Dinesh M
+										M. Dinesh
 									</h1>
 									<p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
 										Passionate interior designer with a focus on creating
@@ -22,7 +22,7 @@ export default function Component() {
 								</div>
 							</div>
 							<Image
-								alt="Dinesh M"
+								alt="M. Dinesh"
 								className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
 								height="550"
 								src="/dinesh.jpg"
@@ -39,11 +39,11 @@ export default function Component() {
 					<div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
 						<div className="space-y-2">
 							<h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-								About Dinesh M
+								About M. Dinesh
 							</h2>
 							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-								Dinesh M is a passionate interior designer with over a decade of
-								experience. He believes in creating spaces that are not only
+								M. Dinesh is a passionate interior designer with over a decade
+								of experience. He believes in creating spaces that are not only
 								beautiful, but also functional and tailored to the unique needs
 								of his clients. His design philosophy focuses on incorporating
 								natural elements, minimalist aesthetics, and sustainable
@@ -51,7 +51,7 @@ export default function Component() {
 							</p>
 						</div>
 						<Image
-							alt="Dinesh M"
+							alt="M. Dinesh"
 							className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full"
 							height="550"
 							src="/placeholder.svg"
