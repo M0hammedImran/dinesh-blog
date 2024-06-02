@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 import LocalFont from "next/font/local";
+import "./globals.css";
 
 export const metadata: Metadata = {
 	title: "Dinesh's Portfolio",
