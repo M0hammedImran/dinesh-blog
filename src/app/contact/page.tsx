@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 export default function Page() {
 	return (
 		<section
-			className="w-full min-h-[calc(100svh-146px)] flex justify-center py-12 md:py-24 lg:py-32"
+			className="flex justify-center py-12 md:py-24 lg:py-32"
 			id="contact"
 		>
 			<div className="container flex items-center justify-center flex-col gap-4 px-4 text-center md:px-6">

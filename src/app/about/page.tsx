@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function about() {
 	return (
-		<div className="min-h-[calc(100svh-146px)]">
+		<>
 			<section className="w-full flex justify-center py-12 md:py-24 lg:py-32 xl:py-48">
 				<div className="container px-4 md:px-6">
 					<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
@@ -28,6 +28,8 @@ export default function about() {
 				</div>
 			</section>
 
+			<div className="hidden w-full h-px animate-glow md:block bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
 			<section
 				className="w-full flex justify-center py-12 md:py-24 lg:py-32"
 				id="about"
@@ -52,6 +54,6 @@ export default function about() {
 					/>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }

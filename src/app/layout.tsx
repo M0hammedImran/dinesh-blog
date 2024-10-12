@@ -69,7 +69,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 						quantity={500}
 					/>
 
-					<main className="flex flex-col">{children}</main>
+					<main className="flex flex-col min-h-[calc(100svh-146px)]">
+						{children}
+					</main>
 				</ClientLayout>
 			</body>
 		</html>
