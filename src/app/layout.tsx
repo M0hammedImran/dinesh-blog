@@ -69,6 +69,9 @@ export const metadata: Metadata = {
 	twitter: {
 		title: "M Dinesh",
 		card: "summary_large_image",
+		images: "/dinesh.jpeg",
+		description:
+			"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
 	},
 };
 

@@ -4,6 +4,7 @@ import {
 	CardDescription,
 	CardTitle,
 } from "@/components/ui/card";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -28,6 +29,10 @@ const projects = [
 		href: "/blog/reflections-3bhk-flat",
 	},
 ] as const;
+
+export const metadata: Metadata = {
+	title: "Projects by M. Dinesh",
+};
 
 export default function Page() {
 	return (
