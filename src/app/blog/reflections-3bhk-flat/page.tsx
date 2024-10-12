@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 
 const drawings = [
@@ -22,6 +23,80 @@ const vanityArea = [
 	"/reflections-3bhk/43c856155045865.634d9f1d56d32.jpg",
 	"/reflections-3bhk/2365f5155045865.634d9f1d57bda.jpg",
 ];
+
+export const metadata: Metadata = {
+	title: "Reflections—3BHK Flat",
+	description:
+		"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+	openGraph: {
+		type: "website",
+		url: "https://mdinesh.in/",
+		siteName: "Dinesh's Portfolio",
+		title: "Dinesh's Portfolio",
+		description:
+			"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+		images: [
+			{
+				url: "/reflections-3bhk/2f4d2d155045865.634d9f1b1133b.jpg",
+				width: 640,
+				height: 640,
+			},
+		],
+		locale: "en_IN",
+		countryName: "India",
+	},
+	appleWebApp: {
+		title: "Dinesh's Portfolio",
+	},
+	applicationName: "Dinesh's Portfolio",
+	publisher: "M. Dinesh",
+	icons: [
+		{
+			rel: "icon",
+			url: "/dnest_logo_light.svg",
+			media: "(prefers-color-scheme: dark)",
+			type: "image/svg+xml",
+			sizes: "any",
+		},
+		{
+			rel: "icon",
+			url: "/dnest_logo_dark.svg",
+			media: "(prefers-color-scheme: light)",
+			type: "image/svg+xml",
+			sizes: "any",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "180x180",
+			url: "/dnest_logo_light.svg",
+			type: "image/svg+xml",
+		},
+	],
+	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			"max-video-preview": -1,
+			"max-image-preview": "large",
+			"max-snippet": -1,
+		},
+	},
+	twitter: {
+		title: "M Dinesh",
+		card: "summary_large_image",
+		images: [
+			{
+				url: "/reflections-3bhk/2f4d2d155045865.634d9f1b1133b.jpg",
+				width: 640,
+				height: 640,
+				type: "image/jpeg",
+			},
+		],
+	},
+};
 
 export default function Page() {
 	return (

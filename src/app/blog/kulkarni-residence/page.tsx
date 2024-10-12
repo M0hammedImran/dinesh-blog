@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import type { Metadata } from "next";
 
 import Image from "next/image";
 
@@ -20,6 +21,81 @@ const images = [
 		"/kulkarni/b18e94149995289.62f1f2173a449.png",
 	],
 ];
+
+export const metadata: Metadata = {
+	title: "Kulkarni Residence",
+	description:
+		"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+	openGraph: {
+		type: "website",
+		url: "https://mdinesh.in/",
+		siteName: "Dinesh's Portfolio",
+		title: "Dinesh's Portfolio",
+		description:
+			"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
+		images: [
+			{
+				url: "/kulkarni/390e78149995289.62f1f91072aef.png",
+				width: 640,
+				height: 640,
+				type: "image/png",
+			},
+		],
+		locale: "en_IN",
+		countryName: "India",
+	},
+	appleWebApp: {
+		title: "Dinesh's Portfolio",
+	},
+	applicationName: "Dinesh's Portfolio",
+	publisher: "M. Dinesh",
+	icons: [
+		{
+			rel: "icon",
+			url: "/dnest_logo_light.svg",
+			media: "(prefers-color-scheme: dark)",
+			type: "image/svg+xml",
+			sizes: "any",
+		},
+		{
+			rel: "icon",
+			url: "/dnest_logo_dark.svg",
+			media: "(prefers-color-scheme: light)",
+			type: "image/svg+xml",
+			sizes: "any",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "180x180",
+			url: "/dnest_logo_light.svg",
+			type: "image/svg+xml",
+		},
+	],
+	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			"max-video-preview": -1,
+			"max-image-preview": "large",
+			"max-snippet": -1,
+		},
+	},
+	twitter: {
+		title: "M Dinesh",
+		card: "summary_large_image",
+		images: [
+			{
+				url: "/kulkarni/390e78149995289.62f1f91072aef.png",
+				width: 640,
+				height: 640,
+				type: "image/png",
+			},
+		],
+	},
+};
 
 export default function Page() {
 	return (
