@@ -13,52 +13,45 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		url: "https://mdinesh.in/",
-		title: "Dinesh's Portfolio",
-		description: "Dinesh's Portfolio Description",
 		siteName: "Dinesh's Portfolio",
+		title: "Dinesh's Portfolio",
+		description:
+			"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
 		images: [
 			{
-				url: "https://mdinesh.in/_next/image?url=%2Fdinesh.jpeg&w=640&q=75",
+				url: "/dinesh.jpeg",
 				width: 640,
 				height: 640,
 			},
 		],
+		locale: "en_IN",
+		countryName: "India",
 	},
+	appleWebApp: {
+		title: "Dinesh's Portfolio",
+	},
+	applicationName: "Dinesh's Portfolio",
+	publisher: "M. Dinesh",
 	icons: [
-		{ rel: "icon", url: "https://mdinesh.com/dnest_logo_light.png" },
 		{
-			rel: "apple-touch-icon",
-			url: "https://mdinesh.com/dnest_logo_light.png",
+			rel: "icon",
+			url: "/dnest_logo_light.svg",
+			media: "(prefers-color-scheme: dark)",
+			type: "image/svg+xml",
+			sizes: "any",
+		},
+		{
+			rel: "icon",
+			url: "/dnest_logo_dark.svg",
+			media: "(prefers-color-scheme: light)",
+			type: "image/svg+xml",
+			sizes: "any",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "180x180",
-			url: "https://mdinesh.com/dnest_logo_light.png",
-		},
-		{
-			rel: "apple-touch-icon",
-			sizes: "167x167",
-			url: "https://mdinesh.com/dnest_logo_light.png",
-		},
-		{
-			rel: "apple-touch-icon",
-			sizes: "152x152",
-			url: "https://mdinesh.com/dnest_logo_light.png",
-		},
-		{
-			rel: "apple-touch-icon",
-			sizes: "120x120",
-			url: "https://mdinesh.com/dnest_logo_light.png",
-		},
-		{
-			rel: "apple-touch-icon",
-			sizes: "76x76",
-			url: "https://mdinesh.com/dnest_logo_light.png",
-		},
-		{
-			rel: "apple-touch-icon",
-			sizes: "60x60",
-			url: "https://mdinesh.com/dnest_logo_light.png",
+			url: "/dnest_logo_light.svg",
+			type: "image/svg+xml",
 		},
 	],
 	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
