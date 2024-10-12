@@ -1,5 +1,3 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Particles from "@/components/particles";
 import {
 	Card,
@@ -8,18 +6,18 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
 	return (
-		<div className="overflow-y-hidden">
-			<Navbar />
+		<div className="overflow-x-hidden">
 			<div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
 			<section
-				className="w-full min-h-[calc(100svh-121px)] flex justify-center py-12 md:py-24 lg:py-32"
+				className="w-full flex justify-center py-12 md:py-24 lg:py-32"
 				id="projects"
 			>
 				<div className="container px-4 md:px-6">
@@ -35,22 +33,24 @@ export default function Page() {
 						</div>
 					</div>
 					<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-						<Card>
-							<Image
-								alt="Project 1"
-								className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
-								height="310"
-								src="/placeholder.svg"
-								width="550"
-							/>
-							<CardHeader>
-								<CardTitle>Modern Loft</CardTitle>
-								<CardDescription>
-									Transformed a dated loft into a bright, open-concept living
-									space.
-								</CardDescription>
-							</CardHeader>
-						</Card>
+						<Link href={"/blog/kulkarni-residence"}>
+							<Card>
+								<Image
+									alt="The Kulkarni Residence"
+									className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
+									height="550"
+									src="/kulkarni/df1cda149995289.62f1f91071461.jpg"
+									width="550"
+								/>
+								<CardHeader>
+									<CardTitle>The Kulkarni Residence</CardTitle>
+									<CardDescription>
+										A colorful 3BHK flat located in Kengeri, Bengaluru
+									</CardDescription>
+								</CardHeader>
+							</Card>
+						</Link>
+
 						<Card>
 							<Image
 								alt="Project 2"
@@ -86,7 +86,6 @@ export default function Page() {
 					</div>
 				</div>
 			</section>
-			<Footer />
 		</div>
 	);
 }
