@@ -8,6 +8,28 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
+const projects = [
+	{
+		title: "The Kulkarni Residence",
+		description: "A colorful 3BHK flat located in Kengeri, Bengaluru",
+		image: "/kulkarni/df1cda149995289.62f1f91071461.jpg",
+		href: "/blog/kulkarni-residence",
+	},
+	{
+		title: "Agency 2017",
+		description:
+			"Designed a warm, rustic cabin with a focus on natural materials.",
+		image: "/agency-2017/c70dc0150009815.63090777c1426.jpg",
+		href: "/blog/agency-2017",
+	},
+	{
+		title: "Reflections - 3BHK Flat",
+		description: "A fusion of vibrant colors and industrial design",
+		image: "/reflections-3bhk/e0fbf2155045865.634d936f24db7.jpg",
+		href: "/blog/reflections-3bhk-flat",
+	},
+] as const;
+
 export default function Page() {
 	return (
 		<div className="overflow-x-hidden">
@@ -33,56 +55,23 @@ export default function Page() {
 						</div>
 					</div>
 					<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-						<Link href={"/blog/kulkarni-residence"}>
-							<Card>
-								<Image
-									alt="The Kulkarni Residence"
-									className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
-									height="550"
-									src="/kulkarni/df1cda149995289.62f1f91071461.jpg"
-									width="550"
-								/>
-								<CardHeader>
-									<CardTitle>The Kulkarni Residence</CardTitle>
-									<CardDescription>
-										A colorful 3BHK flat located in Kengeri, Bengaluru
-									</CardDescription>
-								</CardHeader>
-							</Card>
-						</Link>
-
-						<Card>
-							<Image
-								alt="Project 2"
-								className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
-								height="310"
-								src="/placeholder.svg"
-								width="550"
-							/>
-							<CardHeader>
-								<CardTitle>Cozy Cabin Retreat</CardTitle>
-								<CardDescription>
-									Designed a warm, rustic cabin with a focus on natural
-									materials.
-								</CardDescription>
-							</CardHeader>
-						</Card>
-						<Card>
-							<Image
-								alt="Project 3"
-								className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
-								height="310"
-								src="/placeholder.svg"
-								width="550"
-							/>
-							<CardHeader>
-								<CardTitle>Minimalist Apartment</CardTitle>
-								<CardDescription>
-									Created a serene, pared-down living space with clean lines and
-									neutral tones.
-								</CardDescription>
-							</CardHeader>
-						</Card>
+						{projects.map((project) => (
+							<Link key={project.href} href={project.href}>
+								<Card>
+									<Image
+										alt={project.title}
+										className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
+										height="550"
+										src={project.image}
+										width="550"
+									/>
+									<CardHeader>
+										<CardTitle className="text-xl">{project.title}</CardTitle>
+										<CardDescription>{project.description}</CardDescription>
+									</CardHeader>
+								</Card>
+							</Link>
+						))}
 					</div>
 				</div>
 			</section>
