@@ -1,8 +1,7 @@
-import Particles from "@/components/particles";
 import {
 	Card,
+	CardContent,
 	CardDescription,
-	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
@@ -32,12 +31,7 @@ const projects = [
 
 export default function Page() {
 	return (
-		<div className="overflow-x-hidden">
-			<div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-			<Particles
-				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={100}
-			/>
+		<div className="overflow-x-hidden min-h-[calc(100svh-146px)]">
 			<section
 				className="w-full flex justify-center py-12 md:py-24 lg:py-32"
 				id="projects"
@@ -54,21 +48,21 @@ export default function Page() {
 							</p>
 						</div>
 					</div>
-					<div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
+					<div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
 						{projects.map((project) => (
 							<Link key={project.href} href={project.href}>
-								<Card>
+								<Card className="overflow-hidden !bg-transparent">
 									<Image
 										alt={project.title}
-										className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
+										className="mx-auto aspect-square object-cover object-center sm:w-full"
 										height="550"
 										src={project.image}
 										width="550"
 									/>
-									<CardHeader>
+									<CardContent className="mt-6">
 										<CardTitle className="text-xl">{project.title}</CardTitle>
 										<CardDescription>{project.description}</CardDescription>
-									</CardHeader>
+									</CardContent>
 								</Card>
 							</Link>
 						))}

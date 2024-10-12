@@ -63,13 +63,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
 		>
 			<body className={cn(inter.className, "w-screen overflow-x-hidden")}>
 				<ClientLayout>
-					<div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+					<div className="hidden absolute top-0 w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 					<Particles
-						className="absolute inset-0 -z-10 animate-fade-in"
-						quantity={100}
+						className="fixed inset-0 -z-10 animate-fade-in"
+						quantity={500}
 					/>
 
-					<main className="flex flex-col min-h-[100svh]">{children}</main>
+					<main className="flex flex-col">{children}</main>
 				</ClientLayout>
 			</body>
 		</html>
