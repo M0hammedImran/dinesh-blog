@@ -23,6 +23,7 @@ export default function about() {
 							height="550"
 							src="/dinesh.jpeg"
 							width="550"
+							loading="eager"
 						/>
 					</div>
 				</div>
@@ -51,6 +52,7 @@ export default function about() {
 						height="550"
 						src="/dinesh-working.jpg"
 						width="550"
+						loading="lazy"
 					/>
 				</div>
 			</section>

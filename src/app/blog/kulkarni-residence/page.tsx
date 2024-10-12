@@ -57,6 +57,7 @@ export default function Page() {
 								src={image}
 								height={320}
 								width={520}
+								loading="lazy"
 							/>
 						))}
 					</div>

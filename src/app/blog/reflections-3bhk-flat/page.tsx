@@ -39,7 +39,7 @@ export default function Page() {
 			</p>
 
 			<div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-				{drawings.map((src) => (
+				{drawings.map((src, index) => (
 					<Image
 						key={src}
 						src={src}
@@ -47,6 +47,7 @@ export default function Page() {
 						className="rounded-xl"
 						width={450}
 						height={450}
+						loading={index > 3 ? "lazy" : "eager"}
 					/>
 				))}
 			</div>
@@ -77,6 +78,7 @@ export default function Page() {
 						className="rounded-xl"
 						width={450}
 						height={450}
+						loading="lazy"
 					/>
 				))}
 			</div>
@@ -94,6 +96,7 @@ export default function Page() {
 						className="rounded-xl"
 						width={450}
 						height={450}
+						loading="lazy"
 					/>
 				))}
 			</div>

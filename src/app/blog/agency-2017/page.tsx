@@ -252,6 +252,7 @@ export default function Page() {
 													alt={section.title}
 													height={320}
 													width={450}
+													loading="lazy"
 												/>
 											</div>
 										))}

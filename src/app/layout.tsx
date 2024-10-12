@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "Dinesh's Portfolio",
 		images: [
 			{
-				url: "https://mdinesh.in/_next/image?url=%2Fdinesh.jpg&w=640&q=75",
+				url: "https://mdinesh.in/_next/image?url=%2Fdinesh.jpeg&w=640&q=75",
 				width: 640,
 				height: 640,
 			},
