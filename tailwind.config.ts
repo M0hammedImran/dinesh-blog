@@ -10,6 +10,10 @@ const config: Config = {
 	darkMode: "class",
 	theme: {
 		extend: {
+			gridTemplateColumns: {
+				// Simple 16 column grid
+				'auto': 'repeat(auto-fill, minmax(320px, 1fr))',
+			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
