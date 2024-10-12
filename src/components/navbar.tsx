@@ -6,7 +6,7 @@ export default function Navbar() {
 		<header className="px-4 lg:px-6 h-14 sticky top-0 backdrop-blur-sm flex items-center">
 			<Link className="flex items-center justify-center" href="/">
 				<HomeIcon className="h-6 w-6" />
-				<span className="sr-only">M Dinesh's Portfolio</span>
+				<span className="sr-only">M M. Dinesh</span>
 			</Link>
 			<nav className="ml-auto flex gap-4 sm:gap-6">
 				<Link

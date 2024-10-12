@@ -29,8 +29,8 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		url: "https://mdinesh.in/",
-		siteName: "Dinesh's Portfolio",
-		title: "Dinesh's Portfolio",
+		siteName: "M. Dinesh",
+		title: "Kulkarni Residence",
 		description:
 			"M. Dinesh is a Interior Designer with a focus on creating beautiful, functional spaces that inspire.",
 		images: [
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
 		countryName: "India",
 	},
 	appleWebApp: {
-		title: "Dinesh's Portfolio",
+		title: "Kulkarni Residence",
 	},
-	applicationName: "Dinesh's Portfolio",
+	applicationName: "M. Dinesh",
 	publisher: "M. Dinesh",
 	icons: [
 		{
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "M Dinesh",
+		title: "Kulkarni Residence",
 		card: "summary_large_image",
 		images: [
 			{
