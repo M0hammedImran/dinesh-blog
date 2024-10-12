@@ -25,40 +25,40 @@ export const metadata: Metadata = {
 		],
 	},
 	icons: [
-		{ rel: "icon", url: "https://mdinesh.com/dnest_logo_light.svg" },
+		{ rel: "icon", url: "https://mdinesh.com/dnest_logo_light.png" },
 		{
 			rel: "apple-touch-icon",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "180x180",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "167x167",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "152x152",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "120x120",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "76x76",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 		{
 			rel: "apple-touch-icon",
 			sizes: "60x60",
-			url: "https://mdinesh.com/dnest_logo_light.svg",
+			url: "https://mdinesh.com/dnest_logo_light.png",
 		},
 	],
 	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
