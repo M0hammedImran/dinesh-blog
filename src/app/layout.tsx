@@ -24,6 +24,43 @@ export const metadata: Metadata = {
 			},
 		],
 	},
+	icons: [
+		{
+			rel: "icon",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=128&q=100",
+		},
+
+		{
+			rel: "apple-touch-icon",
+			sizes: "180x180",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=180&q=100",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "167x167",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=167&q=100",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "152x152",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=152&q=100",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "120x120",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=120&q=100",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "76x76",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=76&q=100",
+		},
+		{
+			rel: "apple-touch-icon",
+			sizes: "60x60",
+			url: "https://mdinesh.in/_next/image?url=%2Fdnest_logo_light.svg&w=60&q=100",
+		},
+	],
 	keywords: ["interior designer", "portfolio", "dinesh", "mdinesh", "designer"],
 	robots: {
 		index: true,
