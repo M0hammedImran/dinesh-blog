@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import Particles from "@/components/particles";
 import {
 	Card,
 	CardDescription,
@@ -10,10 +11,15 @@ import Image from "next/image";
 
 export default function Page() {
 	return (
-		<div>
+		<div className="overflow-y-hidden">
 			<Navbar />
+			<div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			<Particles
+				className="absolute inset-0 -z-10 animate-fade-in"
+				quantity={100}
+			/>
 			<section
-				className="w-full min-h-[calc(100svh-121px)] flex justify-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
+				className="w-full min-h-[calc(100svh-121px)] flex justify-center py-12 md:py-24 lg:py-32"
 				id="projects"
 			>
 				<div className="container px-4 md:px-6">
