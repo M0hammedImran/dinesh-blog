@@ -13,6 +13,7 @@
     "node": ">=20.x",
     "pnpm": ">=9.x"
   },
+  "packageManager": "pnpm@9.1.0",
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
